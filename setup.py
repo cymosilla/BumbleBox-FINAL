@@ -80,11 +80,11 @@ between the bee's position at frames 3 and 6, and fill in its position along tha
 max_seconds_gap sets the seconds threshold after which the data will not be interpolated between two positions. 
 This is useful because if a bee is tracked in frame 1 and frame 50, you wouldnt want to assume it walked in a straight line between these two frames'''
 
-interpolate_data = True
+interpolate_data = False
 max_seconds_gap = 3
 
 
-calculate_behavior_metrics = True
+calculate_behavior_metrics = False
 behavior_metrics = ['speed', 'activity', 'distance from center', 'pairwise distance', 'contacts', 'video averages']
 contact_distance = 2.0 #in centimeters
 
